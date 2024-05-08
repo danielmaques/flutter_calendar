@@ -63,4 +63,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou env
 
 ## Licença
 
-Este pacote está licenciado sob a [MIT].# flutter_calendar
+Este pacote está licenciado sob a [MIT](LICENSE).
