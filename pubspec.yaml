@@ -1,5 +1,5 @@
 name: timeline_calendar
-description: "A new Flutter package project."
+description: "Flutter package to display a horizontal calendar."
 version: 1.0.0
 homepage: "https://github.com/danielmaques/flutter_calendar?tab=readme-ov-file"
 
