@@ -1,66 +1,75 @@
 # Timeline Calendar
 
-O **Timeline Calendar** é um pacote Flutter que permite exibir um calendário em formato de linha do tempo, proporcionando uma maneira intuitiva e visualmente atraente de visualizar datas ao longo do mês.
+The **Timeline Calendar** is a Flutter package that displays a calendar in a
+timeline format, providing an intuitive and visually appealing way to view dates
+throughout the month.
 
 ![image](img.png)
 
-## Características Principais
+## Key Features
 
-- Exibição de calendário em formato de linha do tempo.
-- Integração fácil e rápida em aplicativos Flutter existentes.
+- Timeline-style calendar display.
+- Easy and quick integration into existing Flutter apps.
 
-## Instalação
+## Installation
 
-Para instalar o **Timeline Calendar** em seu projeto Flutter, siga estas etapas:
+To install **Timeline Calendar** in your Flutter project, follow these steps:
 
-1. Adicione a dependência `timeline_calendar` no arquivo `pubspec.yaml` do seu projeto:
+1. Add the `timeline_calendar` dependency to your project's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
   flutter:
     sdk: flutter
-  timeline_calendar: ^1.0.0
+  timeline_calendar: ^1.0.2
 ```
 
-2. Execute o comando `flutter pub get` no terminal para instalar a dependência.
+2. Run the `flutter pub get` command in the terminal to install the dependency.
 
-## Uso Básico
+## Basic Usage
 
 ```dart
 TimelineCalendar(
- initialDate: DateTime.now(),
- firstDate: DateTime.now().subtract(const Duration(days: 365)),
- lastDate: DateTime.now().add(const Duration(days: 365)),
- onDateSelected: (date) => print(date),
- leftMargin: 20,
- activeDayColor: Colors.white,
- disabledColor: Colors.black54,
- activeBackgroundDayColor: Colors.black,
- locale: 'pt',
+initialDate: DateTime.now(),
+firstDate: DateTime.now().subtract(const Duration(days: 365)),
+lastDate: DateTime.now().add(const Duration(days: 365)),
+onDateSelected: (date) => print(date),
+leftMargin: 20,
+activeDayColor: Colors.white,
+disabledColor: Colors.black54,
+activeBackgroundDayColor: Colors.black,
+locale: '
+pt
+'
+,
 ),
 ```
 
-## Personalização
+## Customization
 
-Você pode personalizar o **Timeline Calendar** de acordo com suas necessidades. Alguns exemplos de personalização incluem:
+You can customize the **Timeline Calendar** according to your needs. Some
+examples of customization include:
 
-- Personalizar o estilo do cabeçalho do calendário.
-- Especificar o intervalo de datas a ser exibido.
+- Customizing the calendar header style.
+- Specifying the date range to be displayed.
 
 ## FAQ
 
-### Como adicionar eventos ao calendário?
+### How do I add events to the calendar?
 
-Funcionalidade em desenvolvimento.
+This feature is currently under development.
 
-### Posso personalizar o estilo do calendário?
+### Can I customize the calendar style?
 
-Sim, você pode personalizar o estilo do calendário fornecendo suas próprias configurações de estilo aos parâmetros correspondentes do componente `TimelineCalendar`.
+Yes, you can customize the calendar style by providing your own style
+configurations to the corresponding parameters of the `TimelineCalendar`
+component.
 
-## Contribuição
+## Contribution
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request para sugerir melhorias, correções de bugs ou novos recursos.
+Contributions are welcome! Feel free to open an issue or submit a pull request
+to suggest improvements, bug fixes, or new features.
 
-## Licença
+## License
 
-Este pacote está licenciado sob a [MIT](LICENSE).
+This package is licensed under the [MIT](LICENSE).
